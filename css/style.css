@@ -1,0 +1,239 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+body {
+    background-image: url("/img/wp4118244-ultra-hd-4k-japan-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    text-align: center;
+    margin: 10px;
+}
+
+#difficultyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0px;
+}
+
+#actualDifficulty {
+    width: 15px;
+    text-align: center;
+}
+
+#difficultySelector {
+    height: fit-content;
+    width: 75px;
+
+}
+
+#moveCounterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moveCounter {
+    width: 30px;
+    text-align: center;
+}
+
+#gameInterface {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.towerBase {
+    display: flex;
+    background-image: URL('/img/6238-clip-art-line-png-images(2).png');
+    background-size:100px;
+    background-position: center;
+    height: 190px;
+    width: 220px;
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    background-position-y: 12px; 
+    align-items: center;
+    margin-bottom: 1px black solid;
+    text-indent: -9999px;
+}
+
+.disco {
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px black solid;
+    
+}
+
+#disco1 {
+    width: 220px;
+    background-color: rgb(255, 94, 0);
+}
+
+#disco2 {
+    width: 190px;
+    background-color: rgb(238, 255, 0);
+}
+
+#disco3 {
+    width: 160px;
+    background-color: rgb(129, 204, 79);
+}
+
+#disco4 {
+    width: 130px;
+    background-color: rgb(60, 255, 229);
+}
+
+#disco5 {
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+}
+#disco6 {
+    width: 75px;
+    background-color: rgb(255, 80, 211);
+}
+#disco7 {
+    width: 50px;
+    background-color: rgb(120, 52, 231);
+}
+#disco8 {
+    width: 35px;
+    background-color: rgb(55, 58, 255);
+}
+
+#victory {
+    font-size: 2rem;
+    display: none;
+    text-align: center;
+}
+
+#restartGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#restartGameButton {
+    background-color: rgb(66, 141, 226);
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+}
+
+input[type=range] {
+    height: 38px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #000000;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #000000;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #000000;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #000000;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #000000;
+  }
+
+@media only screen and (min-width: 768px) {
+    main {
+        zoom: 150%;
+    }
+
+    #difficultyDiv {
+        flex-direction: column;
+    }
+}
+
