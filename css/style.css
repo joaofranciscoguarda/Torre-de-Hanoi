@@ -5,7 +5,7 @@ body, html {
 }
 
 body {
-    background-image: url("/img/wp4118244-ultra-hd-4k-japan-wallpapers.jpg");
+    background-image: url("../img/wp4118244-ultra-hd-4k-japan-wallpapers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ p {
 
 .towerBase {
     display: flex;
-    background-image: URL('/img/6238-clip-art-line-png-images(2).png');
+    background-image: URL('../img/6238-clip-art-line-png-images(2).png');
     background-size:100px;
     background-position: center;
     height: 190px;
