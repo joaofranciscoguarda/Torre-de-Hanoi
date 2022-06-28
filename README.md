@@ -12,3 +12,5 @@ Regras do jogo:
 <p>
 -Divirta-se!
 </p>
+
+<p>Criado e produzido por João Francisco</p>
